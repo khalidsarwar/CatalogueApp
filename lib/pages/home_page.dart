@@ -1,3 +1,4 @@
+import 'package:catalogue_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -12,7 +13,7 @@ class HomePage extends StatelessWidget {
               fontSize: 15, fontWeight: FontWeight.bold, color: Colors.red),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
