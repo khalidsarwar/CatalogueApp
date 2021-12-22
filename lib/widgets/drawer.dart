@@ -25,6 +25,19 @@ class _MyDrawerState extends State<MyDrawer> {
               ),
             ),
           ),
+          ListTile(
+            title: Text(
+              "Home",
+              textScaleFactor: 1.2,
+              style: TextStyle(
+                color: Colors.black,
+              ),
+            ),
+            leading: Icon(
+              CupertinoIcons.home,
+              color: Colors.black,
+            ),
+          )
         ],
       ),
     );
